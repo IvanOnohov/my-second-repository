@@ -1,0 +1,7 @@
+t=10;
+f=5;
+Set(t,f);
+public Set(int a, int b)
+{
+a*b;  
+}

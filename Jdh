@@ -1,0 +1,25 @@
+Person Jdh = new Person();  
+ 
+string personName = Jdh.name;
+int personAge = Jdh.age;
+string personNomer = Jdh.nomer;
+string personEmail = Jdh.email;
+Jdh.name = "JDH";
+Jdh.age = 20;
+Jdh.nomer = "8(914)-526-37-92";
+Jdh.email = "fh2h3j.3ij358.hbf2h31@gmail.com"; 
+
+Jdh.Print();  
+ 
+class Person 
+{
+    public string name = "Undefined";
+    public int age;
+    public string nomer = "8(924)-539-45-21";
+    public string email = "yg3u1g2@gmail.com";
+
+    public void Print()
+    {
+        Console.WriteLine($"Имя: {name}  Возраст: {age} Номер телефона: {nomer} Почта: {email}");
+    }
+}
